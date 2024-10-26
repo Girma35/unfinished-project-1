@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" 
+  url      = env("DATABASE_URL")
+}
+
+model JobListing {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  company     String
+  location    String
+  employmentType EmploymentType
+  salary      Float?
+  postedAt    DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+enum EmploymentType {
+  FULL_TIME
+  PART_TIME
+  CONTRACT
+  INTERN
+  FREELANCE
+}
