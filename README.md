@@ -1,37 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Post Job
 
-## Getting Started
+**Status**: 🚀 Frontend Completed | 🛑 Backend Development Paused (Will be Continued)
 
-First, run the development server:
+## 📖 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Post Job** is a platform designed to streamline job postings and applications, creating an efficient and user-friendly experience for employers and job seekers alike. The frontend is complete, allowing recruiters to easily post job listings, while applicants can search and apply seamlessly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Completed Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
+- **Job Posting**: Recruiters can post detailed job listings with specific requirements.
+- **Job Search & Filter**: Users can search and filter jobs by category, location, and experience level.
+- **User Authentication**: Secure login and signup functionality for both recruiters and job seekers.
+- **Responsive Design**: Optimized for both desktop and mobile views.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Planned Backend Features
+- **Application Management**: Employers can manage and review job applications in a single dashboard.
+- **Job Posting Management**: Ability to edit and delete job postings.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express, Prisma, Serverless
+- **Database**: MongoDB
+- **Tools**: Docker, Git, GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started (Frontend)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+Make sure you have the following installed:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Node.js** v14+
+- **npm** or **yarn**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# unfinished-project-1" 
+### Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/post-job.git
+   ```
+2. **Install Dependencies**:
+   ```bash
+   cd post-job
+   npm install
+   ```
+3. **Set up Environment Variables**:
+   Create a `.env` file with necessary environment variables:
+   ```env
+   API_KEY
+   DATABASE_URL
+   ```
+  
+4. **Start Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Access [http://localhost:3000](http://localhost:3000) to view the app locally.
+
+## 🎯 Current Progress
+
+- **Frontend Completed**: All user interfaces for job posting and searching are fully functional.
+- **Backend Setup**: Initial backend setup is underway but paused.
+
+**Note**: Backend development is currently on hold.
+
+## 🔜 To Be Continued
+
+- **Backend Development**: Implement the API for job posting management and application processing.
+- **User Profiles**: Set up for recruiter and job seeker profiles.
+
+## 🤝 Contributions
+
+Contributions are welcome once backend development resumes! If interested, feel free to open an issue or discuss potential features for future collaboration.
+
+## 📜 License
+
+[MIT License](LICENSE)
+
